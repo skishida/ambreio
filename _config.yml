@@ -9,7 +9,8 @@ google_analytics: "UA-88387418-4"
 disqus_shortname: skishida
 
 author:
-  name: skishida
+  name: "skishida"
+  url: "https://skishida.github.io"
   email:
 
 defaults:
