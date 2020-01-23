@@ -1,0 +1,40 @@
+remote_theme: joshgerdes/jekyll-uno
+
+# Site settings
+title: "Ambre"
+description: "Augmented Metaphor Based Representation system for Electricty"
+url: "ambre.io"
+baseurl: ""
+google_analytics: "UA-88387418-4"
+disqus_shortname: skishida
+
+author:
+  name: skishida
+  email:
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins:
+  - jekyll-remote-theme

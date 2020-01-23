@@ -1,0 +1,11 @@
+{
+  //     "emmet.includeLanguages": {
+  //         // "jekyll": "html",
+  //         "scss": "css"
+  //     }
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}

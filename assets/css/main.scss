@@ -1,0 +1,117 @@
+---
+---
+
+@import "mixins";
+@import "variables";
+@import "normalize";
+@import "elements";
+
+@import "uno";
+@import "tables";
+@import "monokai";
+@import "magnific-popup";
+
+/* Modifications */
+
+pre.highlight,
+.highlight pre {
+  padding: 10px;
+}
+
+pre.highlight code,
+.highlight pre code {
+  white-space: pre-wrap;
+}
+
+.btn,
+.navigation__item a {
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+.pagination__page-number {
+  display: inline-block;
+  padding: 10px;
+}
+
+.categories a,
+.tags a {
+  border: 1px solid #ff9d18;
+  border-radius: 20px;
+  color: #ff9d18;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.post-meta__tags {
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.footer__copyright {
+  margin: 0 20px 10px;
+}
+
+.user-image {
+  margin-bottom: 1.2em;
+  position: relative;
+  //   width: 100px;
+  height: 100px;
+  //   border: 3px solid #fff;
+  //   border-radius:100%;
+}
+
+.top-image {
+  display: inline;
+}
+
+h1,
+h2,
+.panel-title {
+  letter-spacing: initial;
+}
+
+h1,
+h2,
+p {
+  font-family: "Rajdhani", "M PLUS Rounded 1c", sans-serif;
+  font-feature-settings: "palt" 1;
+}
+
+.panel-cover__description {
+  font-family: "Rajdhani", "M PLUS Rounded 1c", sans-serif;
+  font-feature-settings: "palt" 1;
+  font-size: 1em;
+}
+
+.footer {
+  font-family: "Rajdhani", sans-serif;
+  padding: 2em 0 2em 0;
+}
+
+.footer__copyright {
+  float: left;
+}
+
+.footer__appendix {
+  float: right;
+}
+
+figcaption {
+  padding-top: 0.5em;
+  padding-bottom: 0.8em;
+  float: right;
+  color: $color_stack;
+}
+
+.panel-cover__divider {
+  border-top: inherit;
+}
+
+.post-list__divider {
+  border-top: inherit;
+}
