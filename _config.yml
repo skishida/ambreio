@@ -3,7 +3,7 @@ remote_theme: joshgerdes/jekyll-uno
 # Site settings
 title: "Ambre"
 description: "Augmented Metaphor Based Representation system for Electricty"
-url: "ambre.io"
+url: ""
 baseurl: ""
 google_analytics: "UA-88387418-4"
 disqus_shortname: skishida
