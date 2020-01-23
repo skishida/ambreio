@@ -4,7 +4,7 @@ remote_theme: joshgerdes/jekyll-uno
 title: "Ambre"
 description: "Augmented Metaphor Based Representation system for Electricty"
 url: ""
-baseurl: "https://ambreio.net/"
+baseurl: "https://ambreio.net"
 google_analytics: "UA-88387418-4"
 disqus_shortname: skishida
 
