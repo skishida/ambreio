@@ -29,8 +29,8 @@ $(document).ready(function() {
   }
 
   if (
-    window.location.pathname !== "{{ site.baseurl }}/" &&
-    window.location.pathname !== "{{ site.baseurl }}/index.html"
+    window.location.pathname   !== "/" &&
+    window.location.pathname   !== "/index.html"
   ) {
     $(".panel-cover").addClass("panel-cover--collapsed");
   }
