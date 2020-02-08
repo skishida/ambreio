@@ -4,8 +4,8 @@
 
 {% case cols %}
     {% when 1 %}
-        {% assign class = "" %}
-        {% assign multi = "" %}
+        {% assign class = "mono" %}
+        {% assign multi = "cover" %}
     {% when 2 %}
         {% assign class = "half" %}
         {% assign multi = "cover" %}

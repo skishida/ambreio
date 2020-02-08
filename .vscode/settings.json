@@ -3,9 +3,9 @@
   //         // "jekyll": "html",
   //         "scss": "css"
   //     }
-
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
-  }
+  },
+  // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe"
 }

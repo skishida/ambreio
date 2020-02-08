@@ -115,3 +115,15 @@ figcaption {
 .post-list__divider {
   border-top: inherit;
 }
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.3em;
+  display: block;
+}
+
+img.cover {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
