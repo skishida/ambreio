@@ -2,7 +2,7 @@ remote_theme: joshgerdes/jekyll-uno
 
 # Site settings
 title: "Ambre"
-description: "Augmented Metaphor Based Representation system for Electricty"
+description: "Augmented Metaphor Based Representation system for Electricity"
 url: ""
 baseurl: "https://ambreio.net"
 google_analytics: "UA-88387418-4"
