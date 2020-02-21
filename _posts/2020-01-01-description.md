@@ -10,8 +10,7 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/plu48jkZL6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sHFTZ_1_aU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 例えば，電気回路をイメージする際，よく「水路とポンプ」のようなメタファーが用いられます．こういったたとえ話を，現実世界のホンモノの回路と重ねて表現できれば，より電気を身近に感じたり，電子工作に興味をもったりといった可能性をもたらすことができるのではないでしょうか．
 
@@ -39,3 +38,6 @@ excerpt_separator: <!--more-->
 /images/a/a.jpg
 {% endcapture %}
 {% include gallery images=images cols=1 %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/plu48jkZL6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
